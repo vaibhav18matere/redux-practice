@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Redux",
+  "name": "Learning redux from code evalution",
   "icons": [
     {
       "src": "favicon.ico",

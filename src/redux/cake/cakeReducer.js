@@ -1,6 +1,6 @@
 // Here we will write reducer functions
 
-import { BUY_CAKE } from "./cakeActions"
+import { ADD_CAKE, BUY_CAKE } from "./cakeActions"
 const initialState = {
      numOfCakes: 10
 }
@@ -11,6 +11,10 @@ const cakeReducer = (state = initialState, action) => {
           case BUY_CAKE: return {
                ...state,
                numOfCakes: state.numOfCakes - 1
+          }
+          case ADD_CAKE: return {
+               ...state,
+               numOfCakes: state.numOfCakes + 1
           }
           default: return state
      }
